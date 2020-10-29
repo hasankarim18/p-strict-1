@@ -1,0 +1,693 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+
+body {
+	width:100%;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h5, h6 {
+   font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+/*********
+global atribute
+********/
+
+/*********
+global atribute
+********/
+
+a, a:hover{
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+/******************************
+top header css starts
+********************************/
+
+header.main-header {
+	background:#f6f9f9;
+	min-height:5rem;
+	width:100%;
+	overflow:hidden;
+	float:left;
+	box-sizing:border-box;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 12;
+	
+}
+
+.navbar-wrapper{
+
+	width:100%;
+}
+
+
+.isStuck{
+	background:#fff;
+	left:0;
+	
+}
+
+.main-header .bg-light .navbar-brand {
+	color:#636c7d;
+}
+.main-header .bg-light .navbar-brand img {
+	vertical-align: top;
+	margin-right:1rem;
+	
+}
+.main-header .bg-light .navbar-brand h1 {
+	display: inline;
+	vertical-align: top;
+    padding-top: 0;
+	line-height: 2.5rem;
+	font-weight: 600;
+	transition:0.3s;
+}
+
+.main-header .bg-light .navbar-brand h1:hover{
+	color:#15A4FA;
+}
+
+.bg-light .navbar-nav .nav-item .nav-link {
+	margin-right: 1.5rem;
+}
+
+.bg-light .navbar-nav .nav-item a {
+	color:#636c7d;
+	font-size: 1.3rem;
+	font-weight: 500;
+	transition:0.3s;
+}
+
+.bg-light .navbar-nav .nav-item a:hover{
+	color:#15A4FA;
+	
+}
+
+
+
+
+/*
+nav.inner-header__nav  div {
+	position: absolute;
+	top: 50%;
+	
+}
+*/
+
+.main-header .bg-light {
+    background-color: #f8f9fa!important;
+    width: 100%;
+}
+
+nav.inner-header__nav ul {
+	vertical-align:middle;
+	display:inline-block;
+	
+}
+nav.inner-header__nav ul li {
+	display:inline-block;
+	margin-left:1.2rem;
+	
+}
+nav.inner-header__nav ul li a {
+	padding-top:0.3rem;
+	display:block;
+	font-size:1.2rem;
+	 font-family: 'Lato', sans-serif;
+	 color:#636C7D;
+}
+
+nav.inner-header__nav ul li a:hover,
+
+ nav.inner-header__nav ul li a:active{
+	
+	color:#15A4FA;
+}
+
+
+
+
+
+
+
+/******************************
+top header css ends
+********************************/
+
+/******************************
+banner sectioncss starts
+********************************/
+
+
+
+.banner-section{
+	width:100%;
+	
+	background: url(images/Banner.png) center top no-repeat;
+	background-size:cover;
+	overflow:hidden;
+	float:left;
+	
+}
+
+.inner-banner{
+	width:100%;
+	text-align:center;
+}
+
+.inner-banner h1 {
+	font-size:85px;
+	line-height:85px;
+	font-family: 'Lato', sans-serif;
+	color:white;
+	margin-top:220px;
+	margin-bottom:30px;
+	text-transform:uppercase;
+	
+}
+
+.inner-banner .divider{
+	height:2px;
+	background-color:#15a4fa;
+	width:600px;
+	margin:0 auto;
+}
+
+.inner-banner p {
+	margin-top:35px;
+	margin-bottom:60px;
+	font-family: 'Lato', sans-serif;
+	color:white;
+	font-size:20px;
+	line-height:20px;
+}
+
+.inner-banner a{
+	display:inline-block;
+	width:180px;
+	height:60px;
+	border:1px solid #15a4fa;
+	font-size:18px;
+	color:white;
+	padding-top:18px;
+	border-radius:5px;
+	font-family: 'Lato', sans-serif;
+	transition:0.5s ease;
+}
+
+.inner-banner a:hover,
+.inner-banner a:active {
+	background-color:#15a4fa;
+}
+
+
+.inner-banner #d-ar{
+	display:block;
+	margin:180px auto 90px auto;
+	border:none;
+}
+
+html { scroll-behavior: smooth; }
+
+.inner-banner #d-ar:hover{
+	background-color: transparent;
+}
+
+/******************************
+banner section css ends
+********************************/
+
+/******************************
+
+********************************/
+
+/******************************
+simple and pure section starts 
+********************************/
+.simple-pure{
+	width:100%;
+	background:#f6f9f9;
+	
+	overflow:hidden;
+	float:left;
+	
+}
+.inner-simple {
+	float:left;
+	text-align:center;
+	width:100%;
+	padding-top:80px;
+	padding-bottom:110px;
+}
+.simple-pure h2 {
+	font-size:40px;
+	color:#2d3950;
+	margin-bottom:30px;
+}
+.simple-pure p {
+	font-size:16px;
+	line-height:26px;
+	color:#a7a8a8;
+}
+
+
+/******************************
+simple and pure section ends
+********************************/
+/******************************
+
+********************************/
+/******************************
+	feature section starts
+********************************/
+
+.feature{
+	width:100%;
+	overflow:hidden;
+}
+
+
+.inner-feture{
+	
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	padding:65px 0px 65px 60px;
+	
+}
+
+
+.inner-feture img {
+	margin-bottom:30px
+}
+
+.inner-feture h4 {
+	margin-bottom:25px;
+	font-size:20px;
+	 color:#2d3950;
+	 line-height:20px;
+}
+
+.inner-feture p{
+	font-size:14px;
+	color:#999999;
+	line-height:18px;
+}
+
+/******************************
+	feature section ends
+********************************/
+
+/******************************
+	portfolio section starts
+********************************/
+
+.portfolio {
+	width:100%;
+	background-color:#f6f9f9;
+	
+	overflow:hidden;
+	float:left;
+	padding-bottom:90px;
+}
+
+.portfolio-heading {
+	width:100%;
+	text-align:center;
+}
+
+.portfolio-heading h2 {
+	font-size:33px;
+	margin:80px 0px 20px 0px;
+}
+.portfolio-heading p {
+	font-size:14px;
+	margin-bottom:3rem;
+}
+
+.inner-portfolio{
+	transition:all 2s ease;
+}
+
+/*******************
+portfolio mixer section
+*******************/
+.portfolio-mixer {
+
+}
+.portfolio-mix-btn{
+	margin:2rem 2rem;
+}
+.portfolio-mix-btn .btn {
+	background:#15A4FA ;
+	border:1px solid #15A4FA;
+	color:white;
+}
+.portfolio-mix-btn .btn:hover,
+.portfolio-mix-btn .btn:focus{
+	text-decoration: none;
+	color:#15A4FA;
+	background:white;
+	border:1px solid #15A4FA ;
+
+}
+
+
+
+.inner-portfolio-pic{
+	width:100%;
+	margin-bottom:30px;
+	position:relative;
+}
+.inner-portfolio-pic img {
+	vertical-align:middle;
+	width:100%;
+}
+
+.inner-portfolio-pic .zoom-link {
+	/*width:360px;
+	height:260px;*/
+	width:100%;
+	height: 100%;
+	background-color:rgb(43,168,241, 0.6);
+	text-align:center;
+	padding-top:107px;
+	position:absolute;
+	top:0;
+	left:0;
+	transform:scale(0);
+	transition:0.3s;
+}
+
+
+.inner-portfolio:hover .zoom-link,
+.inner-portfolio:active .zoom-link{
+	
+	transform:scale(1);
+}
+
+
+
+
+.inner-portfolio-pic .zoom-link ul {
+		
+}
+.inner-portfolio-pic .zoom-link ul li{
+	list-style-type:none;
+	display:inline-block;
+
+	
+}
+.inner-portfolio-pic .zoom-link ul li a{
+	display:block;
+}
+
+.inner-portfolio-pic .zoom-link ul li img{
+	
+	
+	
+	
+	
+}
+
+
+.portfolio .pic-middle {
+	padding-left:10px;
+}
+.portfolio .pic-right {
+	padding-left:20px;
+}
+
+/******************************
+	portfolio section ends
+********************************/
+
+/******************************
+	Stay with us starts
+********************************/
+
+.stay-with-us {
+	background: url(images/BG.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	overflow:hidden;
+	float:left;
+	
+}
+
+.stay-with-us .inner-stay {
+	float:left;
+	text-align:center;
+	width:100%;
+	padding:70px 0px 110px 0px;
+	
+}
+
+.stay-with-us .inner-stay .contact-information {
+	width:550px;
+	min-height:520px;
+	background:transparent;
+	
+	margin:0 auto;
+	text-align:center;
+}
+
+.inner-stay .contact-information h3 {
+	font-size:30px;
+	line-height:40px;
+	color:white;
+	margin-bottom:25px;
+}
+.inner-stay .contact-information p {
+	font-size:16px;
+	margin-bottom:50px;
+	color:#939495;
+}
+
+.inner-stay .contact-information p {
+	color: #FFFFFF;
+
+ color: #FFFFFF;
+
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+
+
+
+
+
+.inner-stay .contact-information input {
+	width:550px;
+	height:62px;
+	border:1px solid #939495;
+	border-radius:5px;
+	font-size:14px;
+	background:transparent;
+	margin-bottom:20px;
+	color:white;
+	/*
+	color:#939495;
+	*/
+	padding-left:20px;
+}
+.inner-stay .contact-information textarea {
+	
+	background:transparent;
+	resize:none;
+	width:550px;
+	height:160px;
+	padding:20px;
+	font-size:14px;
+	color:#939495;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+
+.contact-information .check-and-send {
+	width:100%;
+	float:left;
+	
+	padding-top:10px;
+} 
+
+.check-and-send .checkbox{
+	float:left;
+	padding-top:20px;
+	
+	
+	
+}
+.check-and-send .checkbox p{
+	font-size:14px;
+	line-height:14px;
+	color:#e0e1e3;
+	
+	display:inline-block;
+	margin-bottom:0px;
+}
+.check-and-send .checkbox input{
+	width:18px;
+	height:18px;
+	border-radius:3px;
+	background-color:#9aa0a9;
+	margin-right:15px;
+	margin-bottom:0px;
+	vertical-align:middle;
+}
+
+.check-and-send .send {
+	float:right;
+	
+}
+
+.check-and-send .send button {
+	width:140px;
+	height:48px;
+	border:1px solid #15a4fa;
+	background:transparent;
+	font-size:16px;
+	color:white;
+	border-radius:5px;
+	cursor:pointer;
+	transition:0.5s ease;
+}
+
+.check-and-send .send button:hover,
+.check-and-send .send button:active {
+	background:#15a4fa;
+}
+
+.check-and-send .send button:focus {
+	outline:none;
+}
+
+
+
+/*************************
+	footer section conde goes here
+*************************/
+
+
+
+.main-footer{
+	
+	width:100%;
+	background:#f6f9f9;
+	padding:30px;
+}
+
+.main-footer .copy-write {
+
+	color:#9f9f9f;
+	align-items: center;
+    display: flex;
+}
+}
+
+
+
+
+.main-footer .fab {
+	color:white;
+}
+
+.social-media {
+	
+
+
+	
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-footer .social-media ul {
+	margin-bottom: 0px;
+}
+
+.main-footer .social-media ul li {
+	list-style-type:none;
+	display:inline-block;
+	padding:10px 15px 10px 9px;
+	width:42px;
+	height:42px;
+	background:#15a4fa;
+}
+.main-footer .social-media ul li.fb {
+	transition:0.5s ease;
+	padding:10px 15px 10px 11px;
+}
+
+.main-footer .social-media ul li.fb:hover,
+.main-footer .social-media ul li.fb:active{
+	background:#1771E6;
+}
+
+.main-footer .social-media ul li.tw {
+	transition:0.5s ease;
+}
+
+.main-footer .social-media ul li.tw:hover,
+.main-footer .social-media ul li.tw:active{
+	background:#1a91da;
+}
+
+
+.main-footer .social-media ul li.gp {
+	transition:0.5s ease;
+}
+
+.main-footer .social-media ul li.gp:hover,
+.main-footer .social-media ul li.gp:active{
+	background:#DE4C3F;
+}
+
+
+.main-footer .social-media ul li.in {
+	transition:0.5s ease;
+}
+.main-footer .social-media ul li.in:hover,
+.main-footer .social-media ul li.in:active{
+	background:#0077B5;
+}
+
+
+
+
+.main-footer .social-media ul li a {
+	font-size:15px;
+	padding:5px;
+	display:block;
+	vertical-align:middle;
+	line-height:15px;
+}
+
+.clear{
+	clear:both;
+}
+
+
+
